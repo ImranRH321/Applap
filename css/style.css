@@ -1,0 +1,182 @@
+/* =====================
+Common Style  
+========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+*,::after::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f9fbfc;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1174px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* =====================
+header Style  
+========================= */
+
+header{
+    margin-top: 15px;
+}
+
+.inner_header{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.logo_area{
+    width: 120px;
+}
+
+.logo_area img{
+    width: 100%;
+}
+
+.menu{}
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li{
+    padding: 0 17px; 
+    align-items: center;
+    
+}
+
+.menu ul li a{
+ font-size: 16px;
+line-height: 44px;
+color: #242f51;
+font-weight: 400;
+ transition: 1s;
+}
+
+.menu ul li a:hover{
+   color: red;
+}
+.trail_btn {
+    width: 150px;
+    height: 46px;
+    border-radius: 29px;
+    background-color: #2500f9;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+/* =====================
+banner Style  
+========================= */
+
+#banner{
+    min-width: calc(100vh - 72px);
+    background-image: url('../images/hero_banner.png');
+    /* banner img hoinai  */
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+}
+
+.inner_banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content_area{}
+
+.content_area h6{
+    font-size: 18px;
+line-height: 20px;
+color: #242f51;
+font-weight: 400;
+width: 362px;
+height: 35px;
+border-radius: 17px;
+background-color: #e2eaed;
+display: flex;
+align-items: center;
+}
+
+.content_area h6 i{
+    display: block;
+    width: 39px;
+height: 35px;
+border-radius: 17px;
+background-color: #feaa25;
+font-size: 18px;
+line-height: 28px;
+color: #ffffff;
+display: flex ;
+justify-content: center;
+align-items: center;
+margin-right: 5px;
+}
+
+.content_area h1{
+    font-size: 60px;
+line-height: 75px;
+color: #242f51;
+font-weight: 600;
+max-width: 513px;
+margin: 30px 0;
+}
+
+.content_area p{
+    font-size: 18px;
+line-height: 28px;
+color: #616368;
+font-weight: 400;
+max-width: 481px;
+}
+
+.banner_btn{
+    display: flex;
+}
+
+.demo_btn{
+    font-size: 16px;
+line-height: 44px;
+color: #2500f9;
+font-weight: 400;
+border: 0;
+background-color: transparent;
+margin-left: 20px;
+}
+
+.banner_area {
+    max-width: 303px;
+}
+.banner_area img{
+    width: 100%;
+}
+
